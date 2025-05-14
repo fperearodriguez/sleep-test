@@ -1,0 +1,7 @@
+---
+- name: Testing playbook
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Sleep 120 secs
+      ansible.builtin.command: sleep 120
