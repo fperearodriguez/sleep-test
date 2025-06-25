@@ -11,5 +11,5 @@
     - name: create directory
       ansible.builtin.file:
         path: "/opt/eetest/"
-        state: exists
+        state: directory
         mode: 0755
